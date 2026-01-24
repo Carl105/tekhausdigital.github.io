@@ -566,6 +566,11 @@ input[type='checkbox'] {
 	border: none;
 	font-size: 1.25rem;
 }
+.navbar-brand.logo-image img {
+    width: 150px;  /* Change this number to make the logo bigger or smaller */
+    height: auto;  /* Keeps it proportional */
+}
+
 
 
 /*****************/
@@ -1689,6 +1694,7 @@ a:hover.back-to-top {
     font-size: 42px;
   }
 }
+
 
 
 
