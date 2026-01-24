@@ -1669,10 +1669,14 @@ a:hover.back-to-top {
 }
 /* end of min-width 1200px */
 .tekhaus-text {
-  font-size: 64px;        /* BIG text */
-  font-weight: 800;       /* Bold */
-  color: #111;            /* Change to brand color */
+  font-size: 64px;
+  font-weight: 800;
   text-transform: uppercase;
   line-height: 1.1;
+
+  color: #ffffff;        /* WHITE */
+  margin-left: 40px;     /* MOVE RIGHT */
 }
+
+
 
