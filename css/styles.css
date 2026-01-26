@@ -1768,6 +1768,48 @@ img {
     max-height: 300px;
   }
 }
+/* =========================
+   SECTION SPACING FIX
+========================= */
+
+/* Reduce vertical padding for all major sections */
+.basic-1,
+.basic-2,
+.basic-3,
+.basic-4,
+.basic-5,
+.basic-6,
+.slider-1,
+.cards-1,
+.cards-2,
+.footer {
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
+/* Remove unnecessary bottom margins */
+.section-title,
+.p-heading,
+.image-container,
+.text-container {
+  margin-bottom: 0;
+}
+.image-container {
+  margin-bottom: 0 !important;
+}
+@media (max-width: 768px) {
+  .basic-1,
+  .basic-2,
+  .basic-3,
+  .basic-4,
+  .basic-5,
+  .basic-6,
+  .slider-1,
+  .cards-1 {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+}
+
 
 
 
