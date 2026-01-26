@@ -1713,14 +1713,14 @@ img {
 /* Mobile fix */
 @media (max-width: 768px) {
   .logo-image img {
-    height: 32px;
+    height: 24px;
   }
 }
 
 /* Extra small phones */
 @media (max-width: 480px) {
   .logo-image img {
-    height: 28px;
+    height: 24px;
   }
 }
 
@@ -1768,6 +1768,7 @@ img {
     max-height: 300px;
   }
 }
+
 
 
 
