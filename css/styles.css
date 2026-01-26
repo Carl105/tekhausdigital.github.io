@@ -1703,11 +1703,27 @@ img {
   display: block;
 }
 /* =========================
-   NAVBAR LOGO
+   RESPONSIVE NAVBAR LOGO
 ========================= */
 .logo-image img {
-  height: 48px;      /* adjust if needed */
+  height: 40px;
   width: auto;
+}
+
+/* Mobile fix */
+@media (max-width: 768px) {
+  .logo-image img {
+    height: 32px;
+  }
+}
+
+/* Extra small phones */
+@media (max-width: 480px) {
+  .logo-image img {
+    height: 28px;
+  }
+}
+
 }
 /* =========================
    CONTENT SECTION IMAGES
@@ -1752,6 +1768,7 @@ img {
     max-height: 300px;
   }
 }
+
 
 
 
