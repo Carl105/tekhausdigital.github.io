@@ -1723,6 +1723,25 @@ img {
     height: 20px;
   }
 }
+/* Global safe spacing */
+.basic-1,
+.basic-2,
+.basic-3,
+.basic-4,
+.basic-5,
+.basic-6,
+.basic-7,
+.slider-1,
+.form-1 {
+    padding: 60px 0;
+}
+
+/* Tighter sections */
+.basic-4,
+.basic-7 {
+    padding: 40px 0;
+}
+
 
 
 
