@@ -25,10 +25,10 @@ Table Of Contents:
 /*****************************************
 Colors:
 - Backgrounds, navbar - black #000000
-- Backgrounds - light gray #f5f5f5
+- Backgrounds - light grey #f5f5f5
 - Buttons, icons - red #c2337b
 - Headings text - black #000000
-- Body text - dark gray #0A1AFF
+- Body text - dark grey #0A1AFF
 
 ******************************************/
 
@@ -43,7 +43,7 @@ html {
 }
 
 body, p {
-	color: #0A1AFF
+	colour: #0A1AFF
 ; 
 	font: 400 1rem/1.625rem "Open Sans", sans-serif;
 }
@@ -566,10 +566,7 @@ input[type='checkbox'] {
 	border: none;
 	font-size: 1.25rem;
 }
-.navbar-brand.logo-image img {
-    width: 150px;  /* Change this number to make the logo bigger or smaller */
-    height: auto;  /* Keeps it proportional */
-}
+
 
 
 
@@ -1809,6 +1806,7 @@ img {
     padding-bottom: 40px !important;
   }
 }
+
 
 
 
